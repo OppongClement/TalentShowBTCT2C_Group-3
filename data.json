@@ -1,0 +1,16 @@
+[
+    {
+        "name": "clement oppong ahen",
+        "email": "clementoppong@gmail.com",
+        "password": "1111",
+        "talent": "rap",
+        "status": "Pending"
+    },
+    {
+        "name": "clement",
+        "email": "clementoppong@gmail.com",
+        "password": "1234",
+        "talent": "Magic",
+        "status": "Pending"
+    }
+]

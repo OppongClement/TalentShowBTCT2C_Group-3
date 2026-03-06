@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+     font-family: sans-serif;
+      margin: 0; 
+      background-color: #000066;
+     }
+
+/* --- NEW DARK THEME (Index & Dashboard) --- */
+.hero { background-color: #000066;
+     color: white; 
+     text-align: center;
+      padding: 80px 20px; 
+    }
+
+
+.hero h1 { font-size: 3rem;
+     margin: 0; }
+
+.hero h1 span { color: #ffcc00; }
+
+.hero p { font-style: italic;
+     margin-bottom: 30px; }
+
+.btn-container { display: flex;
+     justify-content: center; 
+     gap: 15px; }
+
+.btn { padding: 10px 25px; 
+    border-radius: 5px; 
+    text-decoration: none;
+     font-weight: bold; }
+
+.btn-blue { background-color: #4351e8; color: white; }
+
+.btn-outline { border: 2px solid white; color: gold; }
+
+.legacy { background-color: #000; color: white; padding: 30px; width: 70%; margin: -40px auto 40px; border-radius: 8px; }
+
+.legacy h2 { color: #ffcc00; }
+
+/* --- ORIGINAL FORM THEME (Login & Register) --- */
+.form-container { display: flex; justify-content: center; align-items: center; height: 100vh; }
+
+.card { background: gold; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 350px; text-align: center; border-top: 5px solid black; }
+
+.card input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; background: #f0f4ff; }
+
+.card button { width: 100%; padding: 12px; border: none; background:black; color: white; border-radius: 5px; cursor: pointer; font-size: 16px; }
+
+.card a { color: #6c63ff; text-decoration: none; font-size: 14px; }
+
+/* Sponsor Footer Section */
+.sponsor-footer {
+    background-color: white; /* White background to make logos pop */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.sponsor-footer h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows logos to wrap on smaller screens */
+    gap: 40px;
+}
+
+.sponsor-logo {
+    max-width: 150px; /* Standard size for logos */
+    height: auto;
+    filter: grayscale(100%); /* Optional: makes logos match better */
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+
+.sponsor-logo:hover {
+    filter: grayscale(0%); /* Returns color on hover */
+    opacity: 1;
+    transform: scale(1.1); /* Slight zoom effect */
+}
